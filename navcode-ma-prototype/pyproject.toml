@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navcode-ma-prototype"
+version = "0.1.0"
+description = "Mock-only multi-agent Code-as-Policies VLN execution protocol"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+navcode-ma-demo = "navcode_ma.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["navcode_ma*"]

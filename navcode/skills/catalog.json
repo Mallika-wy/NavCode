@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": [
+    {"name":"policy-writing","description":"Compile a checkpointed Python policy using NavCode's actual RGB-D tools.","roles":["code"],"entry":"policy-writing/SKILL.md"},
+    {"name":"state-repair","description":"Continue an existing checkpoint after a program or navigation failure without losing prior progress.","roles":["code"],"entry":"state-repair/SKILL.md"},
+    {"name":"route-following","description":"Match instruction context to visible passages and choose informative local targets.","roles":["code","vision"],"entry":"route-following/SKILL.md"},
+    {"name":"blocked-motion","description":"Distinguish contact stalls, depth uncertainty, wrong entrances and repeated viewing cycles.","roles":["code","vision"],"entry":"blocked-motion/SKILL.md"},
+    {"name":"verification","description":"Check stage transitions and final position with current and temporal visual evidence.","roles":["code","vision"],"entry":"verification/SKILL.md"}
+  ]
+}

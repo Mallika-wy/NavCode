@@ -1,0 +1,191 @@
+{
+  "suite": "rxr",
+  "split": "val_unseen",
+  "seed": 20261031,
+  "purpose": "held_out_do_not_tune",
+  "selection": "seeded shuffle, one instruction per trajectory, scene round robin; no metrics used",
+  "dataset": "third_party/VLN-CE/data/datasets/RxR_VLNCE_v0/val_unseen/val_unseen_guide.json.gz",
+  "dataset_sha256": "b6f922baecc23d640188c9a226e91ec7130751639650c8941161ce82d73ca7bc",
+  "episodes": [
+    {
+      "episode_id": "9339",
+      "trajectory_id": "12704",
+      "scene": "QUCTc6BB5sX",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "1153",
+      "trajectory_id": "1630",
+      "scene": "pLe4wQe7qrG",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "929",
+      "trajectory_id": "1291",
+      "scene": "oLBMNvg9in8",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "3925",
+      "trajectory_id": "5051",
+      "scene": "Z6MFQCViBuw",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "3574",
+      "trajectory_id": "4654",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "5976",
+      "trajectory_id": "7969",
+      "scene": "TbHJrupSAjP",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "9723",
+      "trajectory_id": "13142",
+      "scene": "2azQ1b91cZZ",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "3956",
+      "trajectory_id": "5109",
+      "scene": "8194nk5LbLH",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "8427",
+      "trajectory_id": "11363",
+      "scene": "x8F5xyUWy9e",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "10011",
+      "trajectory_id": "13642",
+      "scene": "X7HyMhZNoso",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "912",
+      "trajectory_id": "1280",
+      "scene": "zsNo4HB9uLZ",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "2300",
+      "trajectory_id": "3047",
+      "scene": "QUCTc6BB5sX",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "2183",
+      "trajectory_id": "2886",
+      "scene": "pLe4wQe7qrG",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "1478",
+      "trajectory_id": "1983",
+      "scene": "oLBMNvg9in8",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "8164",
+      "trajectory_id": "11051",
+      "scene": "Z6MFQCViBuw",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "760",
+      "trajectory_id": "1041",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "1972",
+      "trajectory_id": "2620",
+      "scene": "TbHJrupSAjP",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "1606",
+      "trajectory_id": "2110",
+      "scene": "2azQ1b91cZZ",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "2265",
+      "trajectory_id": "3004",
+      "scene": "8194nk5LbLH",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "2767",
+      "trajectory_id": "3685",
+      "scene": "x8F5xyUWy9e",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "6661",
+      "trajectory_id": "9031",
+      "scene": "X7HyMhZNoso",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "1900",
+      "trajectory_id": "2496",
+      "scene": "zsNo4HB9uLZ",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "8189",
+      "trajectory_id": "11069",
+      "scene": "QUCTc6BB5sX",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "9593",
+      "trajectory_id": "12970",
+      "scene": "oLBMNvg9in8",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "6427",
+      "trajectory_id": "8709",
+      "scene": "Z6MFQCViBuw",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "9667",
+      "trajectory_id": "13070",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "7498",
+      "trajectory_id": "10035",
+      "scene": "TbHJrupSAjP",
+      "language": "en-IN"
+    },
+    {
+      "episode_id": "7195",
+      "trajectory_id": "9673",
+      "scene": "2azQ1b91cZZ",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "5383",
+      "trajectory_id": "7111",
+      "scene": "8194nk5LbLH",
+      "language": "en-US"
+    },
+    {
+      "episode_id": "5332",
+      "trajectory_id": "7038",
+      "scene": "x8F5xyUWy9e",
+      "language": "en-US"
+    }
+  ]
+}

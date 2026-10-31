@@ -1,0 +1,11 @@
+{
+  "remote": "https://github.com/jacobkrantz/VLN-CE.git",
+  "branch": "master",
+  "commit": "729d141b2ee10628061ada74dd3a5b9f70faeba5",
+  "matches_remote_head_observed_before_clone": true,
+  "upstream_worktree_clean": true,
+  "python_files_syntax_checked": 39,
+  "data_imported": true,
+  "habitat_eval_run": false,
+  "data_transfer_report": "DATA_TRANSFER_REPORT.json"
+}

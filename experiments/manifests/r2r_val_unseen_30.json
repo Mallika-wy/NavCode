@@ -1,0 +1,191 @@
+{
+  "suite": "r2r",
+  "split": "val_unseen",
+  "seed": 20261031,
+  "purpose": "held_out_do_not_tune",
+  "selection": "seeded shuffle, one instruction per trajectory, scene round robin; no metrics used",
+  "dataset": "third_party/VLN-CE/data/datasets/R2R_VLNCE_v1-3_preprocessed/val_unseen/val_unseen.json.gz",
+  "dataset_sha256": "1767a407e2c8a011fbb7abece76cd64c5b39ff9fa0e9e340ebdce5a490d167c3",
+  "episodes": [
+    {
+      "episode_id": "1056",
+      "trajectory_id": "4239",
+      "scene": "x8F5xyUWy9e",
+      "language": "en"
+    },
+    {
+      "episode_id": "1234",
+      "trajectory_id": "4871",
+      "scene": "8194nk5LbLH",
+      "language": "en"
+    },
+    {
+      "episode_id": "456",
+      "trajectory_id": "1827",
+      "scene": "QUCTc6BB5sX",
+      "language": "en"
+    },
+    {
+      "episode_id": "1244",
+      "trajectory_id": "4934",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en"
+    },
+    {
+      "episode_id": "592",
+      "trajectory_id": "2417",
+      "scene": "Z6MFQCViBuw",
+      "language": "en"
+    },
+    {
+      "episode_id": "441",
+      "trajectory_id": "1720",
+      "scene": "zsNo4HB9uLZ",
+      "language": "en"
+    },
+    {
+      "episode_id": "649",
+      "trajectory_id": "2690",
+      "scene": "pLe4wQe7qrG",
+      "language": "en"
+    },
+    {
+      "episode_id": "1416",
+      "trajectory_id": "5608",
+      "scene": "2azQ1b91cZZ",
+      "language": "en"
+    },
+    {
+      "episode_id": "228",
+      "trajectory_id": "955",
+      "scene": "X7HyMhZNoso",
+      "language": "en"
+    },
+    {
+      "episode_id": "509",
+      "trajectory_id": "2044",
+      "scene": "oLBMNvg9in8",
+      "language": "en"
+    },
+    {
+      "episode_id": "451",
+      "trajectory_id": "1825",
+      "scene": "TbHJrupSAjP",
+      "language": "en"
+    },
+    {
+      "episode_id": "974",
+      "trajectory_id": "3992",
+      "scene": "x8F5xyUWy9e",
+      "language": "en"
+    },
+    {
+      "episode_id": "1592",
+      "trajectory_id": "6339",
+      "scene": "8194nk5LbLH",
+      "language": "en"
+    },
+    {
+      "episode_id": "608",
+      "trajectory_id": "2527",
+      "scene": "QUCTc6BB5sX",
+      "language": "en"
+    },
+    {
+      "episode_id": "1631",
+      "trajectory_id": "6547",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en"
+    },
+    {
+      "episode_id": "1838",
+      "trajectory_id": "7309",
+      "scene": "Z6MFQCViBuw",
+      "language": "en"
+    },
+    {
+      "episode_id": "1771",
+      "trajectory_id": "6994",
+      "scene": "zsNo4HB9uLZ",
+      "language": "en"
+    },
+    {
+      "episode_id": "1584",
+      "trajectory_id": "6306",
+      "scene": "pLe4wQe7qrG",
+      "language": "en"
+    },
+    {
+      "episode_id": "1381",
+      "trajectory_id": "5455",
+      "scene": "2azQ1b91cZZ",
+      "language": "en"
+    },
+    {
+      "episode_id": "1336",
+      "trajectory_id": "5201",
+      "scene": "X7HyMhZNoso",
+      "language": "en"
+    },
+    {
+      "episode_id": "1577",
+      "trajectory_id": "6299",
+      "scene": "oLBMNvg9in8",
+      "language": "en"
+    },
+    {
+      "episode_id": "1708",
+      "trajectory_id": "6766",
+      "scene": "TbHJrupSAjP",
+      "language": "en"
+    },
+    {
+      "episode_id": "1596",
+      "trajectory_id": "6357",
+      "scene": "x8F5xyUWy9e",
+      "language": "en"
+    },
+    {
+      "episode_id": "290",
+      "trajectory_id": "1141",
+      "scene": "8194nk5LbLH",
+      "language": "en"
+    },
+    {
+      "episode_id": "700",
+      "trajectory_id": "2847",
+      "scene": "QUCTc6BB5sX",
+      "language": "en"
+    },
+    {
+      "episode_id": "681",
+      "trajectory_id": "2777",
+      "scene": "EU6Fwq7SyZv",
+      "language": "en"
+    },
+    {
+      "episode_id": "1556",
+      "trajectory_id": "6093",
+      "scene": "Z6MFQCViBuw",
+      "language": "en"
+    },
+    {
+      "episode_id": "253",
+      "trajectory_id": "1030",
+      "scene": "zsNo4HB9uLZ",
+      "language": "en"
+    },
+    {
+      "episode_id": "414",
+      "trajectory_id": "1654",
+      "scene": "pLe4wQe7qrG",
+      "language": "en"
+    },
+    {
+      "episode_id": "141",
+      "trajectory_id": "552",
+      "scene": "2azQ1b91cZZ",
+      "language": "en"
+    }
+  ]
+}

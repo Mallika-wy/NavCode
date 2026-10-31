@@ -1,0 +1,34 @@
+{
+  "models": {
+    "deepseek-v4.1-flash": {
+      "attempts": 68,
+      "ok": 65,
+      "errors": 3,
+      "reported_tokens": 205133,
+      "unknown_usage_attempts": 2
+    },
+    "qwen3.8-max": {
+      "attempts": 103,
+      "ok": 101,
+      "errors": 2,
+      "reported_tokens": 335428,
+      "unknown_usage_attempts": 0
+    },
+    "qwen3.8-omni-flash": {
+      "attempts": 606,
+      "ok": 604,
+      "errors": 2,
+      "reported_tokens": 1677247,
+      "unknown_usage_attempts": 2
+    },
+    "qwen3.8-flash": {
+      "attempts": 16,
+      "ok": 16,
+      "errors": 0,
+      "reported_tokens": 20664,
+      "unknown_usage_attempts": 0
+    }
+  },
+  "actual_cost_rmb": null,
+  "note": "Reported token totals exclude calls with missing usage. Actual cost/remaining RMB unknown; API key alone does not supply management credentials."
+}

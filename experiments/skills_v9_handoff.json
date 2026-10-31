@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-10-31T11:43:47.294803+00:00",
+  "status": "paused_by_user_after_round",
+  "active_experiment_processes": [],
+  "latest_tests": "experiments/tests_skills_v9_final.txt",
+  "tests_passed": 76,
+  "skills_runs": [
+    "experiments/grounded_rxr_23531_skills_v9/result.json",
+    "experiments/grounded_r2r_3586_skills_v9/result.json"
+  ],
+  "current_resources_match_run_snapshots": {
+    "grounded_rxr_23531_skills_v9": true,
+    "grounded_r2r_3586_skills_v9": true
+  },
+  "unexecuted_diagnostic": "scripts/diagnostics/probe_heading_escape.py",
+  "diagnostic_checked": "AST syntax only; no simulator or API started",
+  "progress_report": "RESEARCH_PROGRESS.md",
+  "architecture": "docs/ARCHITECTURE.md",
+  "skills_guide": "docs/NAVIGATION_SKILLS.md"
+}

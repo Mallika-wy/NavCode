@@ -1,0 +1,13 @@
+........................................................................ [ 94%]
+....                                                                     [100%]
+=============================== warnings summary ===============================
+test_benchmark.py::test_resolved_config_has_no_oracle_sensors[r2r-15]
+  /home1/gmh/wangyang/vln/NavCode/.venv/lib/python3.10/site-packages/quaternion/calculus.py:310: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+    def fd_indefinite_integral(f, t):
+
+test_benchmark.py::test_resolved_config_has_no_oracle_sensors[r2r-15]
+  /home1/gmh/linyuze/NaVILA/habitat-lab/habitat/utils/visualizations/maps.py:25: DeprecationWarning: Starting with ImageIO v3 the behavior of this function will switch to that of iio.v3.imread. To keep the current behavior (and make this warning disappear) use `import imageio.v2 as imageio` or call `imageio.v2.imread` directly.
+    AGENT_SPRITE = imageio.imread(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+76 passed, 2 warnings in 2.74s

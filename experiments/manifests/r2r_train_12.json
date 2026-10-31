@@ -1,0 +1,83 @@
+{
+  "suite": "r2r",
+  "split": "train",
+  "seed": 20261031,
+  "purpose": "development",
+  "selection": "seeded shuffle, one instruction per trajectory, scene round robin; no metrics used",
+  "dataset": "third_party/VLN-CE/data/datasets/R2R_VLNCE_v1-3_preprocessed/train/train.json.gz",
+  "dataset_sha256": "340a80133b2157520354ab055a91d98feb2f42e4bbda17b200c911f8788492ea",
+  "episodes": [
+    {
+      "episode_id": "3586",
+      "trajectory_id": "2395",
+      "scene": "VzqfbhrpDEA",
+      "language": "en"
+    },
+    {
+      "episode_id": "4173",
+      "trajectory_id": "2740",
+      "scene": "2n8kARJN3HM",
+      "language": "en"
+    },
+    {
+      "episode_id": "8814",
+      "trajectory_id": "5893",
+      "scene": "p5wJjkQkbXX",
+      "language": "en"
+    },
+    {
+      "episode_id": "3202",
+      "trajectory_id": "2101",
+      "scene": "sKLMLpTHeUy",
+      "language": "en"
+    },
+    {
+      "episode_id": "7509",
+      "trajectory_id": "5016",
+      "scene": "1pXnuDYAj8r",
+      "language": "en"
+    },
+    {
+      "episode_id": "6333",
+      "trajectory_id": "4176",
+      "scene": "V2XKFyX4ASd",
+      "language": "en"
+    },
+    {
+      "episode_id": "5106",
+      "trajectory_id": "3358",
+      "scene": "s8pcmisQ38h",
+      "language": "en"
+    },
+    {
+      "episode_id": "751",
+      "trajectory_id": "488",
+      "scene": "ur6pFq6Qu1A",
+      "language": "en"
+    },
+    {
+      "episode_id": "10752",
+      "trajectory_id": "7266",
+      "scene": "JeFG25nYj2p",
+      "language": "en"
+    },
+    {
+      "episode_id": "5961",
+      "trajectory_id": "3921",
+      "scene": "VLzqgDo317F",
+      "language": "en"
+    },
+    {
+      "episode_id": "4874",
+      "trajectory_id": "3212",
+      "scene": "gTV8FGcVJC9",
+      "language": "en"
+    },
+    {
+      "episode_id": "4848",
+      "trajectory_id": "3194",
+      "scene": "mJXqzFtmKg4",
+      "language": "en"
+    }
+  ]
+}

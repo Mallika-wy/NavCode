@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.env
+outputs/
+logs/
+data/
+third_party/VLN-CE/data/datasets/
+third_party/VLN-CE/data/scene_datasets/
+.venv/
+.pytest_cache/
+*.egg-info/
+navcode-ma-prototype/runs/
+
+# Keep source and lightweight research handoff records in Git. Full frames,
+# depths, model request logs, replays and snapshots remain local artifacts.
+experiments/*
+!experiments/manifests/
+!experiments/manifests/*.json
+!experiments/current_research_state.json
+!experiments/api_usage_summary.json
+!experiments/skills_v9_handoff.json
+!experiments/tests_skills_v9_final.txt

@@ -1,0 +1,41 @@
+{
+  "goal_status": "paused_by_user_after_round",
+  "phase": "hierarchical packages and Skills v9 evaluated; navigation gains not established",
+  "latest_tests": "experiments/tests_skills_v9_final.txt",
+  "live_jobs_at_checkpoint": [],
+  "important_successes": [
+    "experiments/grounded_r2r_3586_v2",
+    "experiments/grounded_batch_r2r_fresh_v3/6333",
+    "experiments/grounded_max_r2r_3202_v4_json"
+  ],
+  "important_failures": [
+    "experiments/grounded_batch_r2r_v1",
+    "experiments/grounded_batch_rxr_v1",
+    "experiments/grounded_max_rxr_36121_v4_json",
+    "experiments/grounded_omni_rxr_36121_v4",
+    "experiments/grounded_rxr_23531_skills_v9",
+    "experiments/grounded_r2r_3586_skills_v9"
+  ],
+  "next_safe_actions": [
+    "Wait for explicit user continuation after their GPT discussion",
+    "Discuss actionable navigation suggestions independently of evidence verdicts",
+    "Discuss distinct-move no-progress counting before triggering Code repair",
+    "Diagnose sensor-only local heading/entrance selection; the new fixed-heading probe is unexecuted",
+    "Design matched model/controller/budget architecture and skill ablations before held-out evaluation"
+  ],
+  "recovery_probe": "experiments/recovery_probe_rxr_36121/summary.json",
+  "progress_report": "RESEARCH_PROGRESS.md",
+  "fee_status": "actual RMB unknown; token usage saved, 300 RMB user-authorized budget not verified against billing",
+  "completion": "not proven; no held-out evaluation or formal architecture ablations",
+  "recovery_controller_probe": "experiments/recovery_controller_probe_rxr_36121/result.json",
+  "recovery_end_to_end": "experiments/grounded_rxr_36121_recovery_v6/result.json",
+  "paired_model_trials": [
+    "experiments/paired_3202_omni_v5/result.json",
+    "experiments/paired_3202_max_v5/result.json"
+  ],
+  "recovery_paired_off": "experiments/paired_rxr_36121_no_recovery_v6/result.json",
+  "pause_reason": "User asked to stop after this round and discuss with GPT before continuing",
+  "handoff": "experiments/skills_v9_handoff.json",
+  "architecture": "docs/ARCHITECTURE.md",
+  "skills_guide": "docs/NAVIGATION_SKILLS.md"
+}
